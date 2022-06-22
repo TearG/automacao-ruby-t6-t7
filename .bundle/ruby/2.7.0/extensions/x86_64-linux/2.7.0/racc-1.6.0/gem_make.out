@@ -1,0 +1,17 @@
+current directory: /home/runner/automacao-ruby-t6-t7/.bundle/ruby/2.7.0/gems/racc-1.6.0/ext/racc/cparse
+/nix/store/yfmnyvd0asw5bs24lg611xn2gi4prqla-ruby-2.7.4/bin/ruby -I /nix/store/yfmnyvd0asw5bs24lg611xn2gi4prqla-ruby-2.7.4/lib/ruby/2.7.0 -r ./siteconf20220621-711-5x3ibh.rb extconf.rb
+checking for rb_block_call()... yes
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /home/runner/automacao-ruby-t6-t7/.bundle/ruby/2.7.0/gems/racc-1.6.0/ext/racc/cparse
+make DESTDIR\= clean
+
+current directory: /home/runner/automacao-ruby-t6-t7/.bundle/ruby/2.7.0/gems/racc-1.6.0/ext/racc/cparse
+make DESTDIR\=
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/runner/automacao-ruby-t6-t7/.bundle/ruby/2.7.0/gems/racc-1.6.0/ext/racc/cparse
+make DESTDIR\= install
+/nix/store/1570w56jrkvr90w9x158vyb5vahnk18v-coreutils-8.32/bin/install -c -m 0755 cparse.so ./.gem.20220621-711-1rwpsj1/racc
